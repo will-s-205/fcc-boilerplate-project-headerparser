@@ -2,18 +2,27 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	color: #222;
-	background-color: #FaFaFa;
+	background: rgb(213,213,213);
+	background: radial-gradient(circle, rgba(213,213,213,1) 37%, rgba(187,187,187,1) 71%);
 	text-align: center;
 	line-height: 1.4em;
 }
 
 .container {
-	padding: 0;
-	margin-top: 40px;
+	padding: 0px;
+	border: 3mm double rgba(53, 53, 53, 0.1);
+	border-radius: 30px;
+	margin: auto 20%;
 }
 
 h3 {
   margin-top: 30px;
+}
+
+hr {
+	margin: 25px auto;
+	height: 2px;
+	width: 100px;
 }
 
 .footer {
@@ -24,7 +33,6 @@ code {
   font-family: monospace;
   padding: 2px;
   color: black;
-  background-color: #fff;
 }
 
 a {
